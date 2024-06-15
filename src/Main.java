@@ -67,8 +67,8 @@ public class Main {
         int newMasha = masha + (masha / 10);
         int newDenis = denis + (denis / 10);
         int newKristina = kristina + (kristina / 10);
-        System.out.println("Маша теперь получает " + newMasha + " рублей. Годовой доход вырос на " + (newMasha - masha) + " рублей");
-        System.out.println("Денис теперь получает " + newDenis + " рублей. Годовой доход вырос на " + (newDenis - denis) + " рублей");
-        System.out.println("Кристина теперь получает " + newKristina + " рублей. Годовой доход вырос на " + (newKristina - kristina) + " рублей");
+        System.out.println("Маша теперь получает " + newMasha + " рублей. Годовой доход вырос на " + (newMasha - masha) * 12 + " рублей");
+        System.out.println("Денис теперь получает " + newDenis + " рублей. Годовой доход вырос на " + (newDenis - denis) * 12 + " рублей");
+        System.out.println("Кристина теперь получает " + newKristina + " рублей. Годовой доход вырос на " + (newKristina - kristina) * 12 + " рублей");
         }
 }
